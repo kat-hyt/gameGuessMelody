@@ -39,7 +39,7 @@ namespace Guess_Melody_Framework
             if ( timeAnswer == 0 )
             {
                 timer1.Stop();
-                SoundPlayer sp = new SoundPlayer(@"C:\Users\1\source\repos\Guess Melody\Guess Melody Framework\mixkit-wrong-answer-fail-notification-946.wav");
+                SoundPlayer sp = new SoundPlayer(@"<your local location>\mixkit-wrong-answer-fail-notification-946.wav");
                 sp.Play();
                 
             }
