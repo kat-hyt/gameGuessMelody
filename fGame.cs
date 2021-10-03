@@ -171,7 +171,7 @@ namespace Guess_Melody_Framework
                 GamePause();
                 fMessage fm = new fMessage();
                 fm.lblMessage.Text = "\tИгрок 1\nПравильный ответ ?";
-                SoundPlayer sp = new SoundPlayer(@"C:\Users\1\source\repos\Guess Melody\Guess Melody Framework\Resources\игрок 1.wav");
+                SoundPlayer sp = new SoundPlayer(@"<your local location>\игрок 1.wav");
                 sp.PlaySync();
                 players[0] = true;
 
@@ -187,7 +187,7 @@ namespace Guess_Melody_Framework
                 GamePause();
                 fMessage fm = new fMessage();
                 fm.lblMessage.Text = "\tИгрок 2\nПравильный ответ ?";
-                SoundPlayer sp = new SoundPlayer(@"C:\Users\1\source\repos\Guess Melody\Guess Melody Framework\Resources\игрок 2.wav");
+                SoundPlayer sp = new SoundPlayer(@"<your local location>\игрок 2.wav");
                 sp.PlaySync();
                 players[1] = true;
 
