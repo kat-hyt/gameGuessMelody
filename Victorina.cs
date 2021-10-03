@@ -11,15 +11,15 @@ namespace Guess_Melody_Framework
     static class Victorina
     {
         static public List<string> list = new List<string>();
-        static public int gameDuration; //продолжительность игра
-        static public int musicDuration = 10; //продолжительность музыки 
-        static public bool randomStart = false; //композиция начнется со случайного места
-        static public string lastFolder = ""; //папка для сохранения муыки
+        static public int gameDuration; //game duration
+        static public int musicDuration = 10; //music duration
+        static public bool randomStart = false; //the composition will start from a random place
+        static public string lastFolder = ""; //folder for saving music
         static public bool allDirectories = false;
         static public int again = list.Count;
         static public string answer = "";
 
-        //считаем музыку в файл
+        //songs to file
         static public void ReadMusic()
         {
             try
